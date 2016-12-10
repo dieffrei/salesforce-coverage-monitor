@@ -3,7 +3,6 @@
   "authors": [
     "Diéffrei Tiepo de Quadros <dieffrei@gmail.com>"
   ],
-  "version": "0.0.1",
   "description": "Converts salesforce record to apex code",
   "main": "",
   "keywords": [
