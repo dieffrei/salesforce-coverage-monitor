@@ -26,7 +26,7 @@ angular.module('forceCodeCoverageBackgroundApp', ["chromeForce"])
 
         function setActive(text){
             chrome.browserAction.setIcon({
-                path: "icon/logo-64.png"
+                path: "img/icon/logo-64.png"
             });
             chrome.browserAction.setPopup({popup: "index.html"});
             setBadge(text);
@@ -34,7 +34,7 @@ angular.module('forceCodeCoverageBackgroundApp', ["chromeForce"])
 
         function setInactive(){
             chrome.browserAction.setIcon({
-                path: "icon/logo-64-gray.png"
+                path: "img/icon/logo-64-gray.png"
             });
             chrome.browserAction.setPopup({popup: ""});
             setBadge("");
